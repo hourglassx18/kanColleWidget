@@ -1,0 +1,86 @@
+h1.biggest {
+    font-size: 12em;
+}
+
+div#initial-blank {
+    height: 600px;
+}
+
+body {
+    background-image: url('../img/background-akebono.png');
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-attachment: fixed;
+    background-position: right bottom;
+}
+
+p#js-text-to-tweet {
+    background-color: white;
+    padding: 35px;
+    border-radius: 10px;
+    border: thin solid black;
+    margin-top: 40px;
+    max-width: 600px;
+    font-size: 1.8em;
+}
+button>img {
+    width: 20px;
+}
+
+p.description {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: thin solid black;
+    max-width: 600px;
+}
+
+div.row.with-margin {
+    margin-top: 100px;
+}
+
+div.page-header.with-margin {
+    margin-top: 400px;
+}
+
+img.icon {
+    height: 40px;
+    vertical-align: baseline;
+}
+
+div.thanks {
+    font-size: 2em;
+    margin-bottom: 80px;
+}
+
+div.with-margin-bottom {
+    margin-bottom: 2000px;
+}
+
+div#and-you {
+    border: thin solid black;
+    border-radius: 10px;
+    padding: 30px;
+    width: 400px;
+    font-size: 1.2em;
+    position: relative;
+    margin-bottom: 40px;
+}
+div#and-you:before {
+    content: "";
+    border-left:   10px solid black;
+    border-top:    10px solid transparent;
+    border-right:  10px solid transparent;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    left: 399px;
+}
+div#and-you:after {
+    content: "";
+    border-left:   10px solid white;
+    border-top:    10px solid transparent;
+    border-right:  10px solid transparent;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    left: 398px;
+}
